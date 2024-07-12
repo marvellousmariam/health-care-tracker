@@ -1,0 +1,44 @@
+
+<div class=" w-1/2 mx-auto my-8">
+    <h1 class=" text-center  text-3xl font-bold my-8">WorkOut Table</h1>
+    <div>
+        
+    </div>
+    <div class="relative w-full  my-8 ">
+        <table class="w-full  text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3">
+                        User Name
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        WorkOut Type
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        WorkOut No
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        WorkOut Minutes
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700" *ngFor="let data of userdata ">
+                    <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        {{data.name}}
+                    </td>
+                    <td class="px-6 py-4"  >
+                      {{data.workouts}}
+                    </td>
+                    <td class="px-6 py-4">
+                        2
+                    </td>
+                    <td class="px-6 py-4">
+                       60
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</div>
