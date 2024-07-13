@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { userData } from '../../constants/data';
+import { filterDropDown, userData } from '../../constants/data';
 import { CommonModule, NgFor } from '@angular/common';
 
 @Component({
@@ -11,4 +11,5 @@ import { CommonModule, NgFor } from '@angular/common';
 })
 export class UserListComponent {
 userdata=userData
+filter=filterDropDown
 }

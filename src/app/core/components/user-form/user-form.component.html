@@ -13,14 +13,11 @@
           <input type="text" id="username" class="rounded-none rounded-e-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Bonnie Green">
         </div>
     </div>
-    <div class=" items-start mb-5">
+    <div class=" items-start mb-5" >
         <label for="workout-type" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">WorkOut Type</label>
-        <select id="workout-type" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-
-        <option>United States</option>
-        <option>Canada</option>
-        <option>France</option>
-        <option>Germany</option>
+        <select id="workout-type"  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" >
+          <option *ngFor="let work of workout">{{work.value}}</option>
+       
   </select>
     </div>
     <div class="mb-5">
