@@ -1,3 +1,5 @@
+import { scales } from "chart.js"
+
 export const userData = [
     {
       id: 1,
@@ -95,3 +97,25 @@ export const userData = [
     { value: "Water Skiing" },
     { value: "Windsurfing" }
   ]
+
+
+  export const option=[
+//chartjs barchat options
+{
+  plugins:{
+    title:{
+      display:true,
+      text:'Work Out Performance',
+    },
+    responsive:true,
+    scales:{
+      x:{
+        stacked:true
+      },
+      y:{
+        stacked:true
+      },
+    }
+  }
+}
+  ]  

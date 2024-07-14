@@ -18,9 +18,10 @@
     "@angular/platform-browser": "^18.1.0",
     "@angular/platform-browser-dynamic": "^18.1.0",
     "@angular/router": "^18.1.0",
-    "apexcharts": "^3.50.0",
+    "@syncfusion/ej2-ng-charts": "^16.2.50",
     "chart.js": "^4.4.3",
     "flowbite": "^2.4.1",
+    "primeng": "^17.18.4",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"

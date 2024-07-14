@@ -6,12 +6,15 @@ import { HeroComponent } from "./core/components/hero/hero.component";
 import { UserFormComponent } from "./core/components/user-form/user-form.component";
 import { UserListComponent } from "./core/components/user-list/user-list.component";
 import { initFlowbite } from 'flowbite';
-import { ChartsComponent } from './core/components/charts/charts.component';
+import { ChartComponent } from './core/components/chart/chart.component';
+
+ 
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, HeroComponent, UserFormComponent, UserListComponent,ChartsComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, HeroComponent, UserFormComponent, UserListComponent,ChartComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass'
 })
