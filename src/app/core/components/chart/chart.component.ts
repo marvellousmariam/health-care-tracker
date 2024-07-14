@@ -28,7 +28,7 @@ export class ChartComponent implements OnInit {
       labels: this.labels,
       datasets: [
         {
-          label:this.type,
+          label:"Workout No",
           backgroundColor: "#ed64a6",
           borderColor: "#ed64a6",
           data: [30, 78, 56, 34, 100, 45, 13],
@@ -36,7 +36,7 @@ export class ChartComponent implements OnInit {
           barThickness: 8,
         },
         {
-          label:"WorkOut No",
+          label:"WorkOut Minuites",
           fill: false,
           backgroundColor: "#4c51bf",
           borderColor: "#4c51bf",
