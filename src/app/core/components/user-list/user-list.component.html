@@ -72,6 +72,11 @@
             </tbody>
         </table>
     </div>
-   
-  
+  <div class=" text-sm font-bold uppercase text-slate-600 text-center mr-20">
+    <mat-paginator [length]="100"
+    [pageSize]="10"
+    [pageSizeOptions]="[5, 10, 25, 100]"
+    aria-label="Select page">
+</mat-paginator>
+
 </div>
